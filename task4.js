@@ -3,7 +3,7 @@ function filterRange(array, a, b) {
     var i;
     for (i = 0; i != array.length; i++)
         if (i >= a && i <= b)
-            result[i] = array[i];
+            result.push(array[i]);
     return result;
 }
 
